@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">新闻</string>
+
+
+    <string-array name="newsTitles">
+        <item>热搜</item>
+        <item>要闻</item>
+        <item>科技</item>
+        <item>手机</item>
+        <item>数码</item>
+        <item>游戏</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>军事</item>
+        <item>视频</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff5500"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="#009688"
+        android:visibility="gone"
+        >
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/base_actionbar_back"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            ></Button>
+
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="1111111"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <!--<com.zlgspace.news.ui.view.X5WebView-->
+        <!--android:id="@+id/mWebView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;</com.zlgspace.news.ui.view.X5WebView>-->
+
+    <FrameLayout
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+</LinearLayout>
