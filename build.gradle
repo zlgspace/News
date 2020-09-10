@@ -25,6 +25,7 @@ allprojects {
     repositories {
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven{ url 'https://maven.aliyun.com/repository/jcenter'}
+        maven{ url 'https://dl.bintray.com/zlgspace/maven' }
         maven {
             url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
         }

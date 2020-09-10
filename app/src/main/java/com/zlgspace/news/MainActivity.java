@@ -5,7 +5,6 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import android.provider.Settings;
 
 import com.zlgspace.news.msgparser.MsgDescription;
 import com.zlgspace.news.ui.SimpleNewsFragment;

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">新闻</string>
 
+    <string name="req_permission">
+        请求文件读写权限，希望能够给与。
+    </string>
+
 
     <string-array name="newsTitles">
         <item>热搜</item>
